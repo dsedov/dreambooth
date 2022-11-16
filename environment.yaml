@@ -1,0 +1,21 @@
+name: diffusers
+channels:
+  - pytorch
+  - nvidia
+  - defaults
+  - conda-forge
+  - huggingface 
+dependencies:
+  - python
+  - pip
+  - cudatoolkit
+  - pytorch
+  - pytorch-cuda
+  - torchvision
+  - numpy
+  - accelerate
+  - diffusers
+  - transformers
+  - ftfy
+  - tensorboard
+  
