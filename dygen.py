@@ -64,9 +64,13 @@ for k in range(datalen):
         if datas[dn][k][0] > 100:
             c1 = colors[dn][1]
             c2 = sampleImageData[k]
-            if msk_lst[k][0] > 64 and (dn % 2) == 0:
-                a1 = 1.0
-                a2 = 0.0
+            if msk_lst[k][0] > 64:
+                if (dn % 2) == 0:
+                    a1 = 1.0
+                    a2 = 0.0
+                else:
+                    a1 = 0.0
+                    a2 = 1.0
             else:
                 a1 = 0.5
                 a2 = 0.5
