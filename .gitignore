@@ -2,7 +2,10 @@
 __pycache__/
 *.py[cod]
 *$py.class
-
+/dataset/*
+/out/*
+/models/*
+/image_synth/*
 # C extensions
 *.so
 
